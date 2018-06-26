@@ -1,0 +1,24 @@
+{
+  "name": "twitter-api-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Herick Oliveira <hkmarques@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "twit": "^2.2.10",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^2.9.0",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.6",
+    "prettier-eslint": "^8.8.2"
+  }
+}

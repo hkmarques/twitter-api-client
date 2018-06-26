@@ -1,0 +1,13 @@
+{
+  "linters": {
+    "**/*.{js,jsx,json,css,graphql}": [
+      "prettier --single-quote --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+  },
+  "ignore": ["package.json", "package-lock.json"]
+}
